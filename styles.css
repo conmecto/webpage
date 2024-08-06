@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    background-color: #f8f6f4;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.header-container {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-container {
+    flex: 0;
+    display: flex;
+    padding: 10px;
+}
+
+.logo {
+    height: 7vh;
+    width: 7vh;
+}
+
+.title-container {
+    flex: 0;
+    display: flex;
+    padding-left: 10px;
+}
+
+.title {
+    font-family: -apple-system, BlinkMac;
+}
+
+
+
+.base-info-container {
+    height: 100vh; display: flex; flex-direction: column;
+}
+
+.base-info-header-container {
+    flex: 1; display: flex; align-items: center; justify-content: center;
+}
+
+.base-info-header {
+    font-family: -apple-system, BlinkMac; font-size: 2.5vw; font-weight: 900;
+}
+
+.base-info-body-container {
+    flex: 2; display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+
+.base-info-body-font {
+    font-family: -apple-system, BlinkMac; color: #0096FF; font-size: 1.5vw; font-weight: 900;
+}
+
+.apple-download-logo {
+    height:5vw; width:15vw;
+}
+
+
+
+.details-container {
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    background-image: linear-gradient(to left, #7f7fd5, #86a8e7);
+}
+
+.polaroid-container {
+    display: flex; flex: 1; align-items: flex-end; justify-content: space-evenly;
+}
+
+.polaroid-title {
+    font-family: -apple-system, BlinkMac; color: white; font-size: 3vw; font-weight: 900;
+}
+
+.polaroid-details {
+    font-size: 1.5vw; font-weight: 600;
+}
+
+.polaroid-left {
+    height:20vw;width:15vw; border-radius: 20px; transform: rotate(-20deg);
+}
+
+.polaroid-right {
+    height:20vw;width:15vw; border-radius: 20px; transform: rotate(20deg);
+}
+
+
+
+.streak-container {
+    display: flex; flex: 1; align-items: flex-end; justify-content: space-evenly;
+}
+
+.streak-title {
+    font-family: -apple-system, BlinkMac; color: white; font-size: 3vw; font-weight: 900;
+}
+
+.streak-fire {
+    height: 5vw; width: 5vw;
+}
+
+.streak-fire-yellow {
+    height: 10vw; width: 10vw; color: yellow;
+}
+
+.streak-detail {
+    font-size: 1.5vw; font-weight: 600;
+}
+
+
+
+.gen-message-container {
+    display: flex; flex: 1; align-items: center; justify-content: center;
+}
+
+.gen-message {
+    font-family: -apple-system, BlinkMac; color: white; font-size: 2vw; font-weight: 900;
+}
+
+
+
+
+.footer-container {
+    height: 30vh;display: flex; flex-direction: row; background-image: linear-gradient(to left, #7f7fd5, #86a8e7); align-items: center; justify-content: space-evenly;
+}
+
+.terms {
+    text-decoration: none; color: black; font-family: -apple-system, BlinkMac; font-size: 1.5vw; font-weight: 900;
+}
+
+.social-icon {
+    height: 3vw; width: 3vw; border-radius: 10px;
+}
+
+.rights {
+    color: black; font-family: -apple-system, BlinkMac; font-size: 1.5vw; font-weight: 900;
+}

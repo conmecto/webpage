@@ -5,89 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico">
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
     <title>Conmecto</title>
 </head>
-<body style="margin: 0px; background-color: #f8f6f4;">
-    <header style="position: -webkit-sticky; position: sticky; top: 0;">
-        <div style="height: 10vh; display: flex; flex-direction: row">
-            <div style="flex: 0; display: flex; padding: 10px;">
-                <img src="conmecto-round.png" style="height: 7vh; width: 7vh;">
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="conmecto-round.png" class="logo">
             </div>
-            <div style="flex: 0; display: flex; padding-left: 10px;">
-                <h1 style="font-family: -apple-system, BlinkMac;">
+            <div class="title-container">
+                <h1 class="title">
                     Conmecto
                 </h1>
             </div>
         </div>
     </header>
     <main>
-        <div style="height: 100vh;display: flex; flex-direction: column; ">
-            <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
-                <p style="font-family: -apple-system, BlinkMac; font-size: 2.5vw; font-weight: 900;">
+        <div class="base-info-container">
+            <div class="base-info-header-container">
+                <p class="base-info-header">
                     Your AI Agent which helps you find Automated Matches
                 </p>
             </div>
-            <div style="flex: 2; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                <p style="font-family: -apple-system, BlinkMac; color: #0096FF; font-size: 1.5vw; font-weight: 900;">
+            <div class="base-info-body-container">
+                <p class="base-info-body-font">
                     Effortlessly Discover Your Ideal Matches with AI
                 </p>
-                <p style="font-family: -apple-system, BlinkMac; color: #0096FF; font-size: 1.5vw; font-weight: 900;">
+                <p class="base-info-body-font">
                    # No More Swiping
                 </p>
                 <a href="https://apps.apple.com/in/app/conmecto">
                     <p style="text-align: center;">
-                        <img src="ios.png" style="height:5vw;width:15vw">
+                        <img src="ios.png" class="apple-download-logo">
                     </p>
                 </a>
             </div>
         </div>
-        <div style="height: 100vh;display: flex; flex-direction: column; background-image: linear-gradient(to left, #7f7fd5, #86a8e7);">
-            <div style="display: flex; flex: 1; align-items: flex-end; justify-content: space-evenly;"> 
-                <p style="font-family: -apple-system, BlinkMac; color: white; font-size: 3vw; font-weight: 900;">
+        <div class="details-container">
+            <div class="polaroid-container"> 
+                <p class="polaroid-title">
                     Polaroids <br> 
-                    <span style="font-size: 1.5vw; font-weight: 600;">
+                    <span class="polaroid-details">
                         Share Your Aesthetic & Memorable <br> Moments using Polaroids 📸
                     </span> 
                 </p>
-                <img src="polaroid.PNG" style="height:20vw;width:15vw; border-radius: 20px; transform: rotate(-20deg);">
-                <img src="polaroid.PNG" style="height:20vw;width:15vw; border-radius: 20px; transform: rotate(20deg);">
+                <img src="polaroid.PNG" class="polaroid-left">
+                <img src="polaroid.PNG" class="polaroid-right">
             </div>
-            <div style="display: flex; flex: 1; align-items: flex-end; justify-content: space-evenly;;"> 
-                <p style="font-family: -apple-system, BlinkMac; color: white; font-size: 3vw; font-weight: 900;">
-                    100 <img src="fireImage.svg" style="height: 5vw; width: 5vw;">
+
+            <div class="streak-container"> 
+                <p class="streak-title">
+                    100 <img src="fireImage.svg" class="streak-fire">
                     <br>
-                    500 <img src="fireImage-yellow.svg" style="height: 10vw; width: 10vw; color: yellow;">
+                    500 <img src="fireImage-yellow.svg" class="streak-fire-yellow">
                 </p>
-                <p style="font-family: -apple-system, BlinkMac; color: white; font-size: 3vw; font-weight: 900;">
+                <p class="streak-title">
                     Match Streak <br> 
-                    <span style="font-size: 1.5vw; font-weight: 600;">
+                    <span class="streak-detail">
                         Maintain Match Streak to hold the Conversations 🔥
                     </span> 
                 </p>
             </div>
-            <div style="display: flex; flex: 1; align-items: center; justify-content: center;"> 
-                <p style="font-family: -apple-system, BlinkMac; color: white; font-size: 2vw; font-weight: 900;">
+
+            <div class="gen-message-container"> 
+                <p class="gen-message">
                     Generate Impressive Messages for Your Matches 👋
                 </p>
             </div>
         </div>
-        <div style="height: 30vh;display: flex; flex-direction: row; background-image: linear-gradient(to left, #7f7fd5, #86a8e7); align-items: center; justify-content: space-evenly;">
-            <a href="policy.html" style="text-decoration: none; color: black; font-family: -apple-system, BlinkMac; font-size: 1.5vw; font-weight: 900;">
+
+        <div class="footer-container">
+            <a href="policy.html" class="terms">
                 Privacy
             </a>
-            <a href="policy.html" style="text-decoration: none; color: black; font-family: -apple-system, BlinkMac; font-size: 1.5vw; font-weight: 900;">
+            <a href="policy.html" class="terms">
                 Terms
             </a>
             <a href="https://www.instagram.com/conmecto">
-                <img src="instagram.png" alt="Instagram" style="height: 3vw; width: 3vw; border-radius: 10px;">
+                <img src="instagram.png" alt="Instagram" class="social-icon">
             </a>
             <a href="https://www.linkedin.com/company/conmecto">
-                <img src="linkedin.png" alt="Linkedin" style="height: 3vw; width: 3vw; border-radius: 10px;">
+                <img src="linkedin.png" alt="Linkedin" class="social-icon">
             </a>
             <a href="https://www.x.com/conmecto">
-                <img src="x.jpg" alt="X" style="height: 3vw; width: 3vw; border-radius: 10px;">
+                <img src="x.jpg" alt="X" class="social-icon">
             </a>
-            <p style="color: black; font-family: -apple-system, BlinkMac; font-size: 1.5vw; font-weight: 900;">
+            <p class="rights">
                 &copy; Conmecto. All Rights Reserved
             </p>
         </div>
