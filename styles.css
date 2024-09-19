@@ -154,121 +154,163 @@ body {
         position: sticky;
         top: 0;
     }
-
     .header-container {
         height: 10vh;
         display: flex;
         flex-direction: row;
     }
-
     .logo-container {
         flex: 0;
         display: flex;
         padding: 10px;
     }
-
     .logo {
         height: 7vh;
         width: 7vh;
     }
-
     .title-container {
         flex: 0;
         display: flex;
         padding-left: 10px;
     }
-
     .title {
         font-family: 'Open Sans', sans-serif;
     }
 
 
 
+    .base-info-main-container {
+        height: 100vh; display: flex; flex-direction: row;
+    }
+    .base-polaroid-container {
+        flex: 1; 
+        display: flex;
+        flex-direction: column;
+    }
+    .base-polaroid-info-container {
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .base-polaroid-video-container {
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    video {
+        height: 100%;
+        border-radius: 2vw;
+    }
+    .video-title {
+        font-family: 'Open Sans', sans-serif; font-size: 1.5vw; font-weight: 900;
+    }
     .base-info-container {
-        height: 100vh; display: flex; flex-direction: column;
+        flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;
     }
-
-    .base-info-header-container {
-        flex: 1; display: flex; align-items: center; justify-content: center;
-    }
-
     .base-info-header {
-        font-family: 'Open Sans', sans-serif; font-size: 2.5vw; font-weight: 900;
+        font-family: 'Open Sans', sans-serif; font-size: 2.5vw; font-weight: 900; color: #7f7fd5;
     }
-
-    .base-info-body-container {
-        flex: 2; display: flex; flex-direction: column; align-items: center; justify-content: center;
-    }
-
     .base-info-body-font {
-        font-family: 'Open Sans', sans-serif; color: #0096FF; font-size: 1.5vw; font-weight: 900;
+        font-family: 'Open Sans', sans-serif; color: #7f7fd5;; font-size: 1.5vw; font-weight: 900;
     }
-
     .apple-download-logo {
         height:5vw; width:15vw;
     }
 
 
 
-    .details-container {
+    .how-it-works-container {
         height: 100vh;
         display: flex; 
-        flex-direction: column; 
-        background-image: linear-gradient(to left, #7f7fd5, #86a8e7);
+        flex-direction: row; 
+        background-image: linear-gradient(to left, #FF5757, #8C52FF);
     }
-
-    .polaroid-container {
-        display: flex; flex: 1; align-items: flex-end; justify-content: space-evenly;
+    .profile-pic-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
-    .polaroid-title {
-        font-family: 'Open Sans', sans-serif; color: white; font-size: 3vw; font-weight: 900;
+    .profile-container {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
     }
-
-    .polaroid-details {
-        font-size: 1.5vw; font-weight: 600;
+    .profile-header-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
-    .polaroid-left {
-        height:20vw;width:15vw; border-radius: 20px; transform: rotate(-20deg);
+    .profile-header-font {
+        font-family: 'Open Sans', sans-serif; color: white;; font-size: 2vw; font-weight: 900;
     }
-
-    .polaroid-right {
-        height:20vw;width:15vw; border-radius: 20px; transform: rotate(20deg);
+    .profile-details-font {
+        font-family: 'Open Sans', sans-serif; color: white;; font-size: 1.5vw; font-weight: 600;
+    }
+    .profile-img {
+        height: 60%;
+        border-radius: 2vw;
     }
 
 
 
     .streak-container {
-        display: flex; flex: 1; align-items: flex-end; justify-content: space-evenly;
+        height: 70vh; display: flex; flex-direction: row;
     }
-
+    .streak-fire-container {
+        flex: 1; display: flex; justify-content: center; align-items: center;
+    }
+    .streak-fire-font {
+        font-family: 'Open Sans', sans-serif; color: black; font-size: 3vw; font-weight: 900;
+    }
+    .streak-matches-img {
+        width: 70%;
+        border: #86a8e7 solid;
+        border-radius: 2vw;
+    }
+    .streak-details-container {
+        flex: 2; display: flex; justify-content: center; align-items: center; flex-direction: column;
+    }
     .streak-title {
-        font-family: 'Open Sans', sans-serif; color: white; font-size: 3vw; font-weight: 900;
+        font-family: 'Open Sans', sans-serif; color: black; font-size: 3vw; font-weight: 900;
     }
-
+    .streak-detail {
+        font-family: 'Open Sans', sans-serif; color: black; font-size: 1.5vw; font-weight: 600;
+    }
     .streak-fire {
         height: 5vw; width: 5vw;
     }
-
     .streak-fire-yellow {
         height: 10vw; width: 10vw; color: yellow;
-    }
-
-    .streak-detail {
-        font-size: 1.5vw; font-weight: 600;
     }
 
 
 
     .gen-message-container {
-        display: flex; flex: 1; align-items: center; justify-content: center;
+        height: 100vh; display: flex; flex-direction: row; 
+        background-image: linear-gradient(to left, #7f7fd5, #86a8e7);
     }
-
-    .gen-message {
-        font-family: 'Open Sans', sans-serif; color: white; font-size: 2vw; font-weight: 900;
+    .gen-message-text-container {
+        flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;
     }
-
+    .gen-message-img-container {
+        flex: 1; display: flex; justify-content: center; align-items: center;
+    }
+    .gen-message-title {
+        font-family: 'Open Sans', sans-serif; color: black; font-size: 2vw; font-weight: 900;
+    }
+    .gen-message-detail {
+        font-family: 'Open Sans', sans-serif; color: white; font-size: 1.5vw; font-weight: 600;
+    }
+    .gen-img {
+        height: 60%;
+        width: 40%;
+        border-radius: 2vw;
+    }
 
 
 
