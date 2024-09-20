@@ -11,121 +11,167 @@ body {
         position: sticky;
         top: 0;
     }
-
     .header-container {
-        height: 5vh;
+        height: 10vh;
         display: flex;
         flex-direction: row;
     }
-
     .logo-container {
         flex: 0;
         display: flex;
         padding: 10px;
     }
-
     .logo {
-        height: 6vh;
-        width: 6vh;
+        height: 7vh;
+        width: 7vh;
     }
-
     .title-container {
         flex: 0;
         display: flex;
         padding-left: 10px;
     }
-
     .title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif; font-size: 3vh;
     }
 
 
 
-    .base-info-container {
-        height: 40vh; display: flex; flex-direction: column;
-    }
-
-    .base-info-header-container {
-        flex: 1; display: flex; align-items: center; justify-content: flex-end;
-    }
-
-    .base-info-header {
-        font-family: 'Open Sans', sans-serif; font-size: 5vw; font-weight: 900; text-align: center;
-    }
-
-    .base-info-body-container {
-        flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
-    }
-
-    .base-info-body-font {
-        font-family: 'Open Sans', sans-serif; color: #0096FF; font-size: 3vw; font-weight: 900;
-    }
-
-    .apple-download-logo {
-        height: 7vw; width: 20vw;
-    }
-
-
-
-    .details-container {
-        height: 50vh;
+    .base-info-main-container {
+        height: 60vh; 
         display: flex; 
-        flex-direction: column; 
-        background-image: linear-gradient(to left, #7f7fd5, #86a8e7);
+        flex-direction: column;
+    }
+    .base-polaroid-container {
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    .base-polaroid-info-container {
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .base-polaroid-video-container {
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    video {
+        height: 100%;
+        border-radius: 2vw;
+    }
+    .video-title {
+        font-family: 'Open Sans', sans-serif; font-size: 1.5vh; font-weight: 900;
+    }
+    .base-info-container {
+        height: 30%; display: flex; flex-direction: column; justify-content: center; align-items: center;
+    }
+    .base-info-header {
+        font-family: 'Open Sans', sans-serif; font-size: 2vh; font-weight: 900; color: #7f7fd5;
+    }
+    .base-info-body-font {
+        font-family: 'Open Sans', sans-serif; color: #7f7fd5;; font-size: 1.5vh; font-weight: 900;
+    }
+    .apple-download-logo {
+        height:7vw; width:25vw;
     }
 
-    .polaroid-container {
-        display: flex; flex: 1; align-items: flex-end; justify-content: space-evenly;
-    }
 
-    .polaroid-title {
-        font-family: 'Open Sans', sans-serif; color: white; font-size: 5vw; font-weight: 900;
-    }
 
-    .polaroid-details {
-        font-size: 3vw; font-weight: 600;
+    .how-it-works-container {
+        height: 60vh;
+        display: flex; 
+        flex-direction: row; 
+        background-image: linear-gradient(to left, #FF5757, #8C52FF);
     }
-
-    .polaroid-left {
-        height: 20vw; width: 15vw; border-radius: 15px; transform: rotate(-20deg);
+    .profile-pic-container {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
-    .polaroid-right {
-        height:20vw;width:15vw; border-radius: 15px; transform: rotate(20deg);
+    .profile-container {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-header-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-header-font {
+        font-family: 'Open Sans', sans-serif; color: white;; font-size: 1.5vh; font-weight: 900;
+    }
+    .profile-details-font {
+        font-family: 'Open Sans', sans-serif; color: white;; font-size: 1vh; font-weight: 600;
+    }
+    .profile-img {
+        height: 40%;
+        width: 60%;
+        border-radius: 2vw;
     }
 
 
 
     .streak-container {
-        display: flex; flex: 1; align-items: flex-end; justify-content: space-evenly;
+        height: 40vh; display: flex; flex-direction: column;
     }
-
+    .streak-fire-container {
+        height: 30%; display: flex; justify-content: center; align-items: center;
+    }
+    .streak-fire-font {
+        font-family: 'Open Sans', sans-serif; color: black; font-size: 3vw; font-weight: 900;
+    }
+    .streak-matches-img {
+        height: 100%;
+        width: 40%;
+        border: #86a8e7 solid;
+        border-radius: 2vw;
+    }
+    .streak-details-container {
+        height: 40%; display: flex; justify-content: center; align-items: center; flex-direction: column;
+    }
     .streak-title {
-        font-family: 'Open Sans', sans-serif; color: white; font-size: 5vw; font-weight: 900;
+        font-family: 'Open Sans', sans-serif; color: black; font-size: 2vh; font-weight: 900;
     }
-
-    .streak-fire {
-        height: 8vw; width: 8vw;
-    }
-
-    .streak-fire-yellow {
-        height: 12vw; width: 12vw; color: yellow;
-    }
-
     .streak-detail {
-        font-size: 2.5vw; font-weight: 600;
+        font-family: 'Open Sans', sans-serif; color: black; font-size: 1.2vh; font-weight: 600;
+    }
+    .streak-fire {
+        height: 5vw; width: 5vw;
+    }
+    .streak-fire-yellow {
+        height: 10vw; width: 10vw; color: yellow;
     }
 
 
 
     .gen-message-container {
-        display: flex; flex: 1; align-items: center; justify-content: center;
+        height: 50vh; display: flex; flex-direction: column; 
+        background-image: linear-gradient(to left, #7f7fd5, #86a8e7);
     }
-
-    .gen-message {
-        font-family: 'Open Sans', sans-serif; color: white; font-size: 3vw; font-weight: 900;
+    .gen-message-text-container {
+        height: 40%; display: flex; flex-direction: column; justify-content: center; align-items: center;
     }
-
+    .gen-message-img-container {
+        height: 60%; display: flex; justify-content: center; align-items: center;
+    }
+    .gen-message-title {
+        font-family: 'Open Sans', sans-serif; color: black; font-size: 2vh; font-weight: 900;
+    }
+    .gen-message-detail {
+        font-family: 'Open Sans', sans-serif; color: white; font-size: 1.5vh; font-weight: 600;
+    }
+    .gen-img {
+        height: 80%;
+        width: 35%;
+        border-radius: 2vw;
+    }
 
 
 
